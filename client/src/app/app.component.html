@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let status of statuses">
+        <blockquote class="twitter-tweet">
+            <p>{{status.text}}</p>
+            by <a href="https://twitter.com/{{status.user.screen_name}}">{{status.user.name}} (@{{status.user.screen_name}})</a>
+        </blockquote>
+    </li>
+</ul>

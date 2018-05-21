@@ -1,0 +1,13 @@
+{
+    "name": "nehalist/poll-in-angular-server",
+    "authors": [
+        {
+            "name": "nehalist",
+            "email": "kevin@nehalist.io"
+        }
+    ],
+    "require": {
+        "dg/twitter-php": "^3.7",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
